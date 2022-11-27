@@ -1,0 +1,37 @@
+.home-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.userListContainer {
+  width: 70rem;
+  padding: 2rem;
+}
+
+.singleUserCSS {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(237, 184, 116);
+  color: #000;
+  margin: 1rem 0;
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.singleUserCSS > button {
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  cursor: pointer;
+}

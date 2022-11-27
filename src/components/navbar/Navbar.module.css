@@ -1,0 +1,29 @@
+.navbarWrapper {
+  width: 100%;
+  height: 5rem;
+  background-color: rgba(245, 245, 245, 0.744);
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.navbarWrapper > * {
+  cursor: pointer;
+  margin: 0 1.7rem;
+}
+
+.logo {
+  width: fit-content;
+  height: 70%;
+  border-left: 2px solid rgb(19, 25, 19);
+  border-right: 2px solid rgb(19, 25, 19);
+  border-top-left-radius: 10rem;
+  border-top-right-radius: 10rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
